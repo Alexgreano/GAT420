@@ -86,6 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 5220634816474538307}
+  animator: {fileID: 0}
   perception: {fileID: -1402566931199974286}
   flockPerception: {fileID: 6072685586171056212}
   obstaclePerception: {fileID: 6401115205604952474}
@@ -103,8 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0878a444f1fc4c3409b18fcd63a95360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextWaypoint:
-  - {fileID: 0}
+  nextWaypoints: []
 --- !u!114 &8490668850709635492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,8 +118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: Player
-  radius: 7
-  maxAngle: 90
+  distance: 1
+  angle: 0
 --- !u!114 &6072685586171056212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,8 +133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: Agent1
-  radius: 5
-  maxAngle: 180
+  distance: 1
+  angle: 0
 --- !u!114 &8490668850709635482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,9 +163,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: Player
-  raycastTransform: {fileID: 8490668850709635493}
   distance: 10
-  angle: 90
+  angle: 180
+  raycastTransform: {fileID: 8490668850709635493}
   numRaycast: 20
 --- !u!114 &5220634816474538307
 MonoBehaviour:

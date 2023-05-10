@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 157533c9f1cd1ad4db1deed7a1e1ecc9, type: 3}
   m_Name: AutonomousAgentData
   m_EditorClassIdentifier: 
-  maxSpeed: 6.86
-  maxForce: 6.11
   seekWeight: 0
   fleeWeight: 0
   cohesionWeight: 0

@@ -95,7 +95,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &-1792603191806540751
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0878a444f1fc4c3409b18fcd63a95360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextWaypoint: []
+  nextWaypoints: []
 --- !u!114 &1249056219
 MonoBehaviour:
   m_ObjectHideFlags: 0
